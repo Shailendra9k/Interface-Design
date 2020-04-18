@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "boostrap/dist/boostrap.css";
-import "./index.css";
-import App from "./App";
+// import "boostrap/dist/css/boostrap.css";
+import "./css/index.css";
+import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import "jquery/dist/jquery.js";
 import "popper.js/dist/umd/popper.js";
-import "boostrap/dist/js/boostrap.js";
+// import "boostrap/dist/js/boostrap.js";
 ReactDOM.render(
   <React.StrictMode>
     <App />
